@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/clouds1.png-c4fd6ec12988505f4936e5186985e91f.stex"
+path="res://.import/RailTilesheet-OriginalSize.png-d5d7c54223ff58641119115632617df2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Resources/Aseprite/clouds1.png"
-dest_files=[ "res://.import/clouds1.png-c4fd6ec12988505f4936e5186985e91f.stex" ]
+source_file="res://Resources/Aseprite/RailTilesheet-OriginalSize.png"
+dest_files=[ "res://.import/RailTilesheet-OriginalSize.png-d5d7c54223ff58641119115632617df2.stex" ]
 
 [params]
 

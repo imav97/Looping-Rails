@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/clouds1.png-c4fd6ec12988505f4936e5186985e91f.stex"
+path="res://.import/cart3.png-b6a86617b57f19b8a730f09558e84419.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Resources/Aseprite/clouds1.png"
-dest_files=[ "res://.import/clouds1.png-c4fd6ec12988505f4936e5186985e91f.stex" ]
+source_file="res://Resources/Aseprite/cart3.png"
+dest_files=[ "res://.import/cart3.png-b6a86617b57f19b8a730f09558e84419.stex" ]
 
 [params]
 
