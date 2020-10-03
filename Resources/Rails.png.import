@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sprite-0001.png-c82f99f6029ff2f3a187af981122542c.stex"
+path="res://.import/Rails.png-ca16c6f2456040971c6d1b95f3c23faa.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Rail/Sprite-0001.png"
-dest_files=[ "res://.import/Sprite-0001.png-c82f99f6029ff2f3a187af981122542c.stex" ]
+source_file="res://Resources/Rails.png"
+dest_files=[ "res://.import/Rails.png-ca16c6f2456040971c6d1b95f3c23faa.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
