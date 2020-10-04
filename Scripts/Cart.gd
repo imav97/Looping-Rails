@@ -10,13 +10,16 @@ var collision_normal: Vector2
 onready var bottom_detect: RayCast2D = $Bottom
 onready var forward_detect: RayCast2D = $Forward
 
+#var to check gravity and supress it on uphills
+var gravity_check:bool = false
+
 
 func _physics_process(delta):
 	var velocity: Vector2 = Vector2.ZERO
 	velocity.x += const_acceleration
 	velocity.y += gravity
 	
-
+	
 	
 	velocity = move_and_slide(velocity)
 	
@@ -29,5 +32,5 @@ func _physics_process(delta):
 				rotation = angleDelta + rotation - deg2rad(90)
 				$RotateTimer.start()
 	else:
-		gravity = 180
-	
+		gravity = 20
+

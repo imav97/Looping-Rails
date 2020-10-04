@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Rails-export.png-86430724e01e994a663e7ab0048868d9.stex"
+path="res://.import/CellSelector.png-3880c9b3e49fb771840e692d7d8eb3f9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Resources/Rails-export.png"
-dest_files=[ "res://.import/Rails-export.png-86430724e01e994a663e7ab0048868d9.stex" ]
+source_file="res://Resources/Aseprite/CellSelector.png"
+dest_files=[ "res://.import/CellSelector.png-3880c9b3e49fb771840e692d7d8eb3f9.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
