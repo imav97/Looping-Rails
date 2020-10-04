@@ -11,7 +11,7 @@ onready var bottom_detect: RayCast2D = $Bottom
 onready var forward_detect: RayCast2D = $Forward
 
 #var to check gravity and supress it on uphills
-var gravity_check:bool = false
+#var gravity_check:bool = false
 
 
 func _physics_process(delta):
@@ -28,9 +28,19 @@ func _physics_process(delta):
 			var collision: KinematicCollision2D = get_slide_collision(collision_index)
 			var angleDelta := collision.normal.angle() - (rotation - PI)
 			collision_normal = collision.normal
+			
+			#trying to solve not going uphill --WORKING--
+			gravity = 10
+			velocity.x = const_acceleration + 20
+			
+			
 			if $RotateTimer.is_stopped():
 				rotation = angleDelta + rotation - deg2rad(90)
 				$RotateTimer.start()
+#	elif !is_on_floor():
+#		gravity = 180
+#		print("Detection: player not touching floor")
 	else:
-		gravity = 20
+		gravity = 180
+		velocity.x = const_acceleration
 

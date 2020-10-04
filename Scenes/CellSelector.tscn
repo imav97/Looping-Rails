@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Resources/Aseprite/CellSelector.png" type="Texture" id=1]
+
+[sub_resource type="Animation" id=1]
+resource_name = "cell_selector"
+length = 0.625
+loop = true
+step = 0.125
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.125, 0.25, 0.375, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4 ]
+}
+
+[node name="CellSelector" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+hframes = 5
+frame = 3
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/cell_selector = SubResource( 1 )
