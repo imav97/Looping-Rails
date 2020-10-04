@@ -218,5 +218,5 @@ visible = false
 texture = ExtResource( 4 )
 
 [node name="Cart" parent="." instance=ExtResource( 7 )]
-position = Vector2( 25, 190.5 )
+position = Vector2( 24, 176 )
 [connection signal="rail_pressed" from="PopupMenu" to="." method="_on_PopupMenu_rail_pressed"]
