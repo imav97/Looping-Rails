@@ -1,9 +1,10 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Resources/Rails.png" type="Texture" id=1]
 [ext_resource path="res://Scripts/Main.gd" type="Script" id=2]
 [ext_resource path="res://UI/PopupMenu.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Resources/blue.png" type="Texture" id=4]
+[ext_resource path="res://Map/CloudsParallax.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Scenes/Cart.tscn" type="PackedScene" id=7]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
@@ -219,4 +220,6 @@ texture = ExtResource( 4 )
 
 [node name="Cart" parent="." instance=ExtResource( 7 )]
 position = Vector2( 24, 176 )
+
+[node name="CloudsParallax" parent="." instance=ExtResource( 5 )]
 [connection signal="rail_pressed" from="PopupMenu" to="." method="_on_PopupMenu_rail_pressed"]
