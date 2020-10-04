@@ -9,6 +9,7 @@ var rail_position: Vector2
 
 onready var tilemap: TileMap = $TileMap
 onready var popup: Control = $PopupMenu
+onready var cell_selector: Node2D = $CellSelector
 
 
 func _input(event: InputEvent) -> void:
@@ -17,7 +18,7 @@ func _input(event: InputEvent) -> void:
 		var cell: int = tilemap.get_cellv(tilemap.world_to_map(pos))
 		if (cell == tilemap.INVALID_CELL):
 			if !popup.visible:
-				popup.set_position(pos - MOUSE_CORRECTION)
+				popup.set_position(get_global_mouse_position() - MOUSE_CORRECTION)
 				popup.show_modal()
 				rail_position = pos
 		else:
@@ -29,7 +30,7 @@ func _input(event: InputEvent) -> void:
 func _unhandled_input(_event: InputEvent) -> void:
 	if !popup.visible:
 		var position: Vector2 = get_global_mouse_position().snapped(tilemap.cell_size)
-		$Outline.position = position
+		cell_selector.position = position
 
 
 func _on_PopupMenu_rail_pressed(rail):
