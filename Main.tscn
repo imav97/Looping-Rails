@@ -204,6 +204,8 @@ points = PoolVector2Array( 3.83265, 32, 0, 32, 0, 0, 3.83265, 0 )
 [node name="Main" type="Node2D"]
 script = ExtResource( 2 )
 
+[node name="CloudsParallax" parent="." instance=ExtResource( 5 )]
+
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 9 )
 cell_size = Vector2( 32, 32 )
@@ -220,6 +222,4 @@ texture = ExtResource( 4 )
 
 [node name="Cart" parent="." instance=ExtResource( 7 )]
 position = Vector2( 24, 176 )
-
-[node name="CloudsParallax" parent="." instance=ExtResource( 5 )]
 [connection signal="rail_pressed" from="PopupMenu" to="." method="_on_PopupMenu_rail_pressed"]
