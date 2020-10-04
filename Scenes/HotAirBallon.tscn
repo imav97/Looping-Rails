@@ -24,7 +24,7 @@ tracks/0/keys = {
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
 hframes = 4
-frame = 1
+frame = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 

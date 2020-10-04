@@ -7,28 +7,28 @@
 [ext_resource path="res://Scenes/Cart.tscn" type="PackedScene" id=7]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
-points = PoolVector2Array( 32.126, 19.3402, 18.5326, 32.126, 13.4183, 32.2606, 32.2606, 15.4371 )
+points = PoolVector2Array( 32, 3.45879, 3.64572, 32, 0, 32, 32, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=2]
-points = PoolVector2Array( 32, 18.8829, 0, 19.071, 0, 14.8988, 32, 14.8988 )
+points = PoolVector2Array( 32, 3.92611, 0, 3.92611, 0, 0, 32, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=3]
-points = PoolVector2Array( 0, 18.1513, 0, 13.5529, 17.1833, 32, 13.5943, 32 )
+points = PoolVector2Array( 0, 3.73918, 0, 0, 32, 32, 28.0625, 32 )
 
 [sub_resource type="ConvexPolygonShape2D" id=4]
-points = PoolVector2Array( 17.2506, 32, 14.0205, 32, 13.4821, 0, 17.2506, 0.395195 )
+points = PoolVector2Array( 32, 32, 28.2494, 32, 28.156, 0, 32, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=5]
-points = PoolVector2Array( 13.6167, 0, 17.116, 0, 0, 18.0581, 0, 13.6167 )
+points = PoolVector2Array( 29.4645, 0, 32, 0, 0, 32, 0, 28.3429 )
 
 [sub_resource type="ConvexPolygonShape2D" id=6]
-points = PoolVector2Array( 0, 13.7513, 32, 14.2897, 32, 17.2506, 0, 16.9814 )
+points = PoolVector2Array( 0, 27.969, 32, 27.969, 32, 32, 0, 32 )
 
 [sub_resource type="ConvexPolygonShape2D" id=7]
-points = PoolVector2Array( 32, 14.0205, 32, 17.5198, 14.8988, 0, 18.8018, 0 )
+points = PoolVector2Array( 32, 28.2494, 32, 32, 0, 0, 1.68298, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=8]
-points = PoolVector2Array( 18.1289, 32, 14.8988, 32, 15.0334, 0, 17.5905, 0 )
+points = PoolVector2Array( 3.83265, 32, 0, 32, 0, 0, 3.83265, 0 )
 
 [sub_resource type="TileSet" id=9]
 0/name = "NO"
