@@ -15,8 +15,9 @@ onready var camera: Camera2D = $Camera2D
 onready var rail_counter: Label = $RailCount
 
 
-func _physics_process(delta):
-	camera.offset.x += camera_speed
+#
+#func _physics_process(delta):
+#	camera.offset.x += camera_speed
 
 
 func _input(event: InputEvent) -> void:
